@@ -1,4 +1,4 @@
-package com.cyj.wiki;
+package com.zysj.wiki;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

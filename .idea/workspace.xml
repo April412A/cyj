@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/all.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-03-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/WikiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/WikiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/WikiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/WikiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/read" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/read" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cyj/wiki/WikiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zysj/wiki/WikiApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyj/wiki/WikiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cyj/wiki/WikiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cyj/wiki/WikiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cyj/wiki/WikiApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +29,36 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wiki: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +72,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\IntelliJ IDEA 2019.2\wiki\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -42,8 +87,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1pMXnyNGtAA8rLpaut17UbrG2DW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -51,7 +100,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/MySQL6.0/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -74,7 +123,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.WikiApplication">
+    <configuration name="WikiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wiki" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zysj.wiki.WikiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WikiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wiki" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cyj.wiki.WikiApplication" />
@@ -85,6 +141,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.31258646" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56a66e5e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56a66e5e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7a0c126a" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56a66e5e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@b97f4fc" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56a66e5e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@66f929e2" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -101,7 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1614994103831</updated>
       <workItem from="1614994107872" duration="15790000" />
-      <workItem from="1615018933825" duration="1187000" />
+      <workItem from="1615018933825" duration="1421000" />
+      <workItem from="1615081899047" duration="8020000" />
+      <workItem from="1615252328565" duration="8044000" />
+      <workItem from="1615277604430" duration="4601000" />
+      <workItem from="1615339807038" duration="173000" />
+      <workItem from="1615340390118" duration="3263000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -138,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615016453773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="热部署">
+      <created>1615021365796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615021365796</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,11 +259,13 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2-2" />
     <MESSAGE value="2-2 init" />
     <MESSAGE value="test1" />
     <MESSAGE value="newtest" />
     <MESSAGE value="newpls" />
-    <option name="LAST_COMMIT_MESSAGE" value="newpls" />
+    <MESSAGE value="热部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="热部署" />
   </component>
 </project>
