@@ -281,3 +281,71 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.zhuanye.wiki
 2021-03-16 10:33:00.990 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2021-03-16 10:33:00.991 INFO  com.zhuanye.wiki.WikiApplication                  :24   [32m                  [0;39m 启动成功！！
 2021-03-16 10:33:00.992 INFO  com.zhuanye.wiki.WikiApplication                  :25   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2021-03-16 10:38:04.292 INFO  com.zhuanye.wiki.WikiApplication                  :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_221 on DESKTOP-DPKE250 with PID 2916 (E:\IntelliJ IDEA 2019.2\wiki\target\classes started by Dell in E:\IntelliJ IDEA 2019.2\wiki)
+2021-03-16 10:38:04.300 INFO  com.zhuanye.wiki.WikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-03-16 10:38:04.426 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-16 10:38:04.427 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-16 10:38:06.742 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2021-03-16 10:38:06.758 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-16 10:38:06.760 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-03-16 10:38:06.761 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-16 10:38:06.978 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-03-16 10:38:06.979 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2550 ms
+2021-03-16 10:38:08.085 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 10:38:08.636 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2021-03-16 10:38:08.711 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-03-16 10:38:08.765 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2021-03-16 10:38:08.810 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-16 10:38:08.842 INFO  com.zhuanye.wiki.WikiApplication                  :61   [32m                  [0;39m Started WikiApplication in 5.543 seconds (JVM running for 8.434)
+2021-03-16 10:38:08.852 INFO  com.zhuanye.wiki.WikiApplication                  :24   [32m                  [0;39m 启动成功！！
+2021-03-16 10:38:08.853 INFO  com.zhuanye.wiki.WikiApplication                  :25   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2021-03-16 10:38:13.846 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 10:38:13.846 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-03-16 10:38:13.848 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-03-16 10:38:13.941 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-03-16 10:38:14.305 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-03-16 10:43:01.536 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2021-03-16 10:43:01.541 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 10:43:01.542 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-03-16 10:43:01.566 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-03-16 10:43:01.922 INFO  com.zhuanye.wiki.WikiApplication                  :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_221 on DESKTOP-DPKE250 with PID 2916 (E:\IntelliJ IDEA 2019.2\wiki\target\classes started by Dell in E:\IntelliJ IDEA 2019.2\wiki)
+2021-03-16 10:43:01.923 INFO  com.zhuanye.wiki.WikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-03-16 10:43:02.479 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2021-03-16 10:43:02.481 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-16 10:43:02.482 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-03-16 10:43:02.482 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-16 10:43:02.509 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-03-16 10:43:02.510 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 582 ms
+2021-03-16 10:43:02.755 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 10:43:02.869 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2021-03-16 10:43:02.894 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-03-16 10:43:02.913 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2021-03-16 10:43:02.920 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-16 10:43:02.937 INFO  com.zhuanye.wiki.WikiApplication                  :61   [32m                  [0;39m Started WikiApplication in 1.088 seconds (JVM running for 302.528)
+2021-03-16 10:43:02.944 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-03-16 10:43:02.946 INFO  com.zhuanye.wiki.WikiApplication                  :24   [32m                  [0;39m 启动成功！！
+2021-03-16 10:43:02.947 INFO  com.zhuanye.wiki.WikiApplication                  :25   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2021-03-16 10:43:05.520 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2021-03-16 10:43:05.521 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 10:43:05.900 INFO  com.zhuanye.wiki.WikiApplication                  :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_221 on DESKTOP-DPKE250 with PID 2916 (E:\IntelliJ IDEA 2019.2\wiki\target\classes started by Dell in E:\IntelliJ IDEA 2019.2\wiki)
+2021-03-16 10:43:05.901 INFO  com.zhuanye.wiki.WikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-03-16 10:43:06.325 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2021-03-16 10:43:06.327 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-16 10:43:06.327 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-03-16 10:43:06.328 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-16 10:43:06.384 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-03-16 10:43:06.385 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 478 ms
+2021-03-16 10:43:06.657 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 10:43:06.821 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2021-03-16 10:43:06.858 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-03-16 10:43:06.879 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2021-03-16 10:43:06.885 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-16 10:43:06.893 INFO  com.zhuanye.wiki.WikiApplication                  :61   [32m                  [0;39m Started WikiApplication in 1.067 seconds (JVM running for 306.484)
+2021-03-16 10:43:06.895 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-03-16 10:43:06.896 INFO  com.zhuanye.wiki.WikiApplication                  :24   [32m                  [0;39m 启动成功！！
+2021-03-16 10:43:06.897 INFO  com.zhuanye.wiki.WikiApplication                  :25   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2021-03-16 10:43:11.372 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 10:43:11.375 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-03-16 10:43:11.376 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-03-16 10:43:11.379 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2021-03-16 10:43:11.389 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
