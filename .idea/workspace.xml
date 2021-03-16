@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp/CommonResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/EbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/EbookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +108,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -191,14 +208,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="Spring Boot.WikiApplication" />
       <item itemvalue="HTTP Request.demo#1" />
       <item itemvalue="HTTP Request.ebook#1" />
+      <item itemvalue="npm.serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve" />
         <item itemvalue="HTTP Request.ebook#1" />
         <item itemvalue="HTTP Request.demo#1" />
       </list>
@@ -238,7 +267,7 @@
       <workItem from="1615340390118" duration="4882000" />
       <workItem from="1615811393370" duration="219000" />
       <workItem from="1615817495071" duration="325000" />
-      <workItem from="1615853627150" duration="8916000" />
+      <workItem from="1615853627150" duration="14148000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -324,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615862330773</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ebook-success">
+      <created>1615862656835</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615862656835</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +395,7 @@
     <MESSAGE value="demo-test" />
     <MESSAGE value="Ebook" />
     <MESSAGE value="Ebook-new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ebook-new" />
+    <MESSAGE value="Ebook-success" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ebook-success" />
   </component>
 </project>
