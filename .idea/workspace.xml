@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/all.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/trace.2021-03-06.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/WikiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/WikiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyj/wiki/read" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/read" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/WikiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/WikiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zysj/wiki/read" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/read" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cyj/wiki/WikiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zysj/wiki/WikiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zysj/wiki/WikiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zhuanye/wiki/WikiApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cyj/wiki/WikiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cyj/wiki/WikiApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/MySQL6.0/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -123,17 +114,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WikiApplication">
-    <configuration name="WikiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="wiki" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zysj.wiki.WikiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="WikiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wiki" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cyj.wiki.WikiApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuanye.wiki.WikiApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -162,11 +146,6 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56a66e5e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@b97f4fc" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56a66e5e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@66f929e2" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -193,7 +172,10 @@
       <workItem from="1615252328565" duration="8044000" />
       <workItem from="1615277604430" duration="4601000" />
       <workItem from="1615339807038" duration="173000" />
-      <workItem from="1615340390118" duration="3263000" />
+      <workItem from="1615340390118" duration="4882000" />
+      <workItem from="1615811393370" duration="219000" />
+      <workItem from="1615817495071" duration="325000" />
+      <workItem from="1615853627150" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -237,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615021365796</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="数据库sql配置">
+      <created>1615344389000</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615344389000</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +255,7 @@
     <MESSAGE value="newtest" />
     <MESSAGE value="newpls" />
     <MESSAGE value="热部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="热部署" />
+    <MESSAGE value="数据库sql配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库sql配置" />
   </component>
 </project>
