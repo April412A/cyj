@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/shims-vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-03-16.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,12 +97,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="E:\IntelliJ IDEA 2019.2\wiki\web\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,6 +111,7 @@
       <recent name="com.zhuanye.wiki.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src\views" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\java\com\zhuanye\wiki\resp" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\http" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\resources\generator" />
@@ -165,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.ebook#1">
+  <component name="RunManager" selected="Spring Boot.WikiApplication">
     <configuration name="demo#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/demo.http">
       <method v="2" />
     </configuration>
@@ -219,11 +211,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.mybatis-generator" />
-      <item itemvalue="Spring Boot.WikiApplication" />
       <item itemvalue="HTTP Request.demo#1" />
       <item itemvalue="HTTP Request.ebook#1" />
+      <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.WikiApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -267,7 +259,10 @@
       <workItem from="1615340390118" duration="4882000" />
       <workItem from="1615811393370" duration="219000" />
       <workItem from="1615817495071" duration="325000" />
-      <workItem from="1615853627150" duration="14148000" />
+      <workItem from="1615853627150" duration="14791000" />
+      <workItem from="1615890603647" duration="47000" />
+      <workItem from="1616462503769" duration="1874000" />
+      <workItem from="1616464504423" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -360,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615862656835</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="vue/cli">
+      <created>1615875878455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615875878455</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +398,7 @@
     <MESSAGE value="Ebook" />
     <MESSAGE value="Ebook-new" />
     <MESSAGE value="Ebook-success" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ebook-success" />
+    <MESSAGE value="vue/cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue/cli" />
   </component>
 </project>
