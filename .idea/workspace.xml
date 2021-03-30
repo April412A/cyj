@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/components/the-footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/components/the-welcome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +264,7 @@
       <workItem from="1616462503769" duration="1874000" />
       <workItem from="1616464504423" duration="8114000" />
       <workItem from="1616544478478" duration="52000" />
-      <workItem from="1617064363869" duration="508000" />
+      <workItem from="1617064363869" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -376,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616468611332</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="自定义vue组件">
+      <created>1617065068266</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617065068266</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +416,8 @@
     <MESSAGE value="Ebook-success" />
     <MESSAGE value="vue/cli" />
     <MESSAGE value="ant-design-vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="ant-design-vue" />
+    <MESSAGE value="自定义vue组件" />
+    <MESSAGE value="install集成anxios" />
+    <option name="LAST_COMMIT_MESSAGE" value="install集成anxios" />
   </component>
 </project>
