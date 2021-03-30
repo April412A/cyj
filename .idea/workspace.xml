@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/trace.2021-03-16.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/views/doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/the-footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/the-welcome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,6 +75,12 @@
       </set>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -97,7 +102,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -111,11 +116,11 @@
       <recent name="com.zhuanye.wiki.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src\components" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src\views" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\java\com\zhuanye\wiki\resp" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\http" />
       <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\resources\generator" />
-      <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\resources" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -262,7 +267,9 @@
       <workItem from="1615853627150" duration="14791000" />
       <workItem from="1615890603647" duration="47000" />
       <workItem from="1616462503769" duration="1874000" />
-      <workItem from="1616464504423" duration="3896000" />
+      <workItem from="1616464504423" duration="8114000" />
+      <workItem from="1616544478478" duration="52000" />
+      <workItem from="1617064363869" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -362,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615875878455</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ant-design-vue">
+      <created>1616468611332</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616468611332</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +413,7 @@
     <MESSAGE value="Ebook-new" />
     <MESSAGE value="Ebook-success" />
     <MESSAGE value="vue/cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue/cli" />
+    <MESSAGE value="ant-design-vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="ant-design-vue" />
   </component>
 </project>
