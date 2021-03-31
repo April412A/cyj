@@ -60,7 +60,7 @@
   </a-layout-header>
 </template>
 
-<!--<script lang="ts">
+<script lang="ts">
   import { defineComponent, ref, computed } from 'vue';
   import axios from 'axios';
   import { message } from 'ant-design-vue';
@@ -130,7 +130,7 @@
       }
     }
   });
-</script>-->
+</script>
 
 <style>
   .logo {

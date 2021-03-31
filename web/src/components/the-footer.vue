@@ -4,7 +4,7 @@
   </a-layout-footer>
 </template>
 
-<!--<script lang="ts">
+<script lang="ts">
   import { defineComponent, computed, onMounted } from 'vue';
   import store from "@/store";
   import {Tool} from "@/util/tool";
@@ -64,4 +64,4 @@
       }
     }
   });
-</script>-->
+</script>

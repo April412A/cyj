@@ -81,7 +81,7 @@ export default defineComponent({
   </a-layout>
 </template>
 
-<!--<script lang="ts">
+<script lang="ts">
   import { defineComponent, onMounted, ref, reactive, toRef } from 'vue';
   import axios from 'axios';
   import { message } from 'ant-design-vue';
@@ -180,7 +180,7 @@ export default defineComponent({
       }
     }
   });
-</script>-->
+</script>
 
 <style scoped>
   .ant-avatar {
