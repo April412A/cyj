@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="aop-test-4-4">
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-04-04.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/image/cover1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/image/cover2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/image/jiawaquanzhan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/echarts_5.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/session-storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/util/tool.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/admin/admin-category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/admin/admin-doc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/admin/admin-ebook.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/admin/admin-user.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
@@ -109,6 +119,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +205,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="E:\apache-maven-3.6.3\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="mavenHome" value="E:\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -215,25 +230,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jar包/mysql-connector-java-8.0.19.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16626213" />
     <property name="project.structure.side.proportion" value="0.2555012" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="E:\IntelliJ IDEA 2019.2\wiki\web\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\public" />
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src" />
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src\views\admin" />
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src\router" />
+      <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\java\com\zhuanye\wiki\resp" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhuanye.wiki.controller" />
       <recent name="com.zhuanye.wiki.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\java\com\zhuanye\wiki\resp" />
-      <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\java\com\zhuanye\wiki" />
-      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web" />
-      <recent name="E:\IntelliJ IDEA 2019.2\wiki\src\main\java\com\zhuanye\wiki\config" />
-      <recent name="E:\IntelliJ IDEA 2019.2\wiki\web\src\components" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -263,7 +279,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WikiApplication">
+  <component name="RunManager" selected="npm.serve">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="demo#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/demo.http">
       <method v="2" />
     </configuration>
@@ -392,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/web/package.json" />
       <command value="run" />
       <scripts>
@@ -412,7 +439,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.serve" />
         <item itemvalue="HTTP Request.ebook#1" />
         <item itemvalue="HTTP Request.demo#1" />
       </list>
@@ -466,7 +492,13 @@
       <workItem from="1617153490649" duration="6405000" />
       <workItem from="1617446128935" duration="7016000" />
       <workItem from="1617462265014" duration="855000" />
-      <workItem from="1617505278018" duration="1222000" />
+      <workItem from="1617505278018" duration="3419000" />
+      <workItem from="1617508763666" duration="450000" />
+      <workItem from="1617509300285" duration="657000" />
+      <workItem from="1617511073696" duration="353000" />
+      <workItem from="1617511635152" duration="3841000" />
+      <workItem from="1617667899899" duration="746000" />
+      <workItem from="1617668707230" duration="5119000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -594,7 +626,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617159098032</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="aop">
+      <created>1617506572676</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617506572676</updated>
+    </task>
+    <task id="LOCAL-00020" summary="aop-test-4-4">
+      <created>1617506638786</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617506638786</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,6 +680,11 @@
     <MESSAGE value="自定义vue组件" />
     <MESSAGE value="install集成anxios" />
     <MESSAGE value="aop" />
-    <option name="LAST_COMMIT_MESSAGE" value="aop" />
+    <MESSAGE value="aop-test-4-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop-test-4-4" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

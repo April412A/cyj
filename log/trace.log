@@ -1,18 +1,26 @@
-2021-03-23 09:45:00.082 INFO  com.zhuanye.wiki.WikiApplication                  :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_221 on DESKTOP-DPKE250 with PID 13324 (E:\IntelliJ IDEA 2019.2\wiki\target\classes started by Dell in E:\IntelliJ IDEA 2019.2\wiki)
-2021-03-23 09:45:00.109 INFO  com.zhuanye.wiki.WikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-03-23 09:45:00.381 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-03-23 09:45:00.383 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-03-23 09:45:03.087 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2021-03-23 09:45:03.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2021-03-23 09:45:03.108 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-03-23 09:45:03.108 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2021-03-23 09:45:03.272 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-03-23 09:45:03.272 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2884 ms
-2021-03-23 09:45:04.564 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-23 09:45:05.077 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-03-23 09:45:05.159 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-03-23 09:45:05.191 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2021-03-23 09:45:05.224 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2021-03-23 09:45:05.269 INFO  com.zhuanye.wiki.WikiApplication                  :61   [32m                  [0;39m Started WikiApplication in 6.808 seconds (JVM running for 11.434)
-2021-03-23 09:45:05.276 INFO  com.zhuanye.wiki.WikiApplication                  :24   [32m                  [0;39m 启动成功！！
-2021-03-23 09:45:05.277 INFO  com.zhuanye.wiki.WikiApplication                  :25   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2021-04-06 09:25:35.515 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-04-06 09:25:35.585 INFO  com.zhuanye.wiki.WikiApplication                  :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_221 on DESKTOP-Q8KK21T with PID 4380 (E:\IntelliJ IDEA 2019.2\wiki\target\classes started by Administrator in E:\IntelliJ IDEA 2019.2\wiki)
+2021-04-06 09:25:35.585 INFO  com.zhuanye.wiki.WikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-06 09:25:36.013 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 09:25:36.013 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 09:25:39.511 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-06 09:25:39.517 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-06 09:25:39.611 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-04-06 09:25:42.357 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2021-04-06 09:25:42.404 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 09:25:42.404 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-06 09:25:42.404 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-06 09:25:42.426 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-06 09:25:42.426 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-06 09:25:42.426 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-06 09:25:42.542 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-06 09:25:42.674 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-06 09:25:42.674 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 6661 ms
+2021-04-06 09:25:45.767 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 09:25:46.901 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2021-04-06 09:25:47.001 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-04-06 09:25:47.039 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 09:25:47.102 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 09:25:47.139 INFO  com.zhuanye.wiki.WikiApplication                  :61   [32m                  [0;39m Started WikiApplication in 13.507 seconds (JVM running for 17.247)
+2021-04-06 09:25:47.155 INFO  com.zhuanye.wiki.WikiApplication                  :24   [32m                  [0;39m 启动成功！！
+2021-04-06 09:25:47.155 INFO  com.zhuanye.wiki.WikiApplication                  :25   [32m                  [0;39m 地址: 	http://127.0.0.1:8080

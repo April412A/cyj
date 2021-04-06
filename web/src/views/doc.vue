@@ -41,7 +41,6 @@
   import {message} from 'ant-design-vue';
   import {Tool} from "@/util/tool";
   import {useRoute} from "vue-router";
-
   export default defineComponent({
     name: 'Doc',
     setup() {

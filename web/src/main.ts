@@ -6,6 +6,7 @@ import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
 import * as Icons from '@ant-design/icons-vue';
 import axios from 'axios';
+// @ts-ignore
 import {Tool} from "@/util/tool";
 import { message } from 'ant-design-vue';
 
@@ -16,6 +17,7 @@ axios.defaults.baseURL = process.env.VUE_APP_SERVER;
  */
 axios.interceptors.request.use(function (config) {
     console.log('请求参数：', config);
+    // @ts-ignore
     const token = store.state.user.token;
     if (Tool.isNotEmpty(token)) {
         config.headers.token = token;
