@@ -24,6 +24,8 @@
       <a-menu-item key="/aliyun">
         <router-link to="/aliyun">阿里云优惠</router-link>
       </a-menu-item>
+
+
       <a-popconfirm
         title="确认退出登录?"
         ok-text="是"
@@ -69,11 +71,12 @@
   declare let hexMd5: any;
   declare let KEY: any;
 
+
   export default defineComponent({
     name: 'the-header',
     setup () {
       // 登录后保存
-      const user = computed(() => store.state.user);
+      const user = computed(() => (store.state as any).user);
 
       // 用来登录
       const loginUser = ref({

@@ -13,7 +13,7 @@
   export default defineComponent({
     name: 'the-footer',
     setup() {
-      const user = computed(() => store.state.user);
+      const user = computed(() => (store.state as any).user);
 
       let websocket: any;
       let token: any;

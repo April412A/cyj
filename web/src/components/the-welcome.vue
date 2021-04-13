@@ -13,7 +13,7 @@
       </div>
     </div>
 
-  <!--  <a-row>
+    <a-row>
       <a-col :span="24">
         <a-card>
           <a-row>
@@ -105,11 +105,11 @@
       <a-col :span="24" id="main-col">
         <div id="main" style="width: 100%;height:300px;"></div>
       </a-col>
-    </a-row>-->
+    </a-row>
   </div>
 </template>
 
-<!--<script lang="ts">
+<script lang="ts">
   import { defineComponent, ref, onMounted } from 'vue'
   import axios from 'axios';
 
@@ -121,7 +121,7 @@
       const statistic = ref();
       statistic.value = {};
       const getStatistic = () => {
-        axios.get('/ebook-snapshot/get-statistic').then((response: { data: any; }) => {
+        axios.get('/ebook-snapshot/get-statistic').then((response) => {
           const data = response.data;
           if (data.success) {
             const statisticResp = data.content;
@@ -215,7 +215,7 @@
       };
 
       const get30DayStatistic = () => {
-        axios.get('/ebook-snapshot/get-30-statistic').then((response: { data: any; }) => {
+        axios.get('/ebook-snapshot/get-30-statistic').then((response) => {
           const data = response.data;
           if (data.success) {
             const statisticList = data.content;
@@ -264,7 +264,7 @@
       }
     }
   });
-</script>-->
+</script>
 <style scoped>
   .tip {
     padding: 10px 5px;
