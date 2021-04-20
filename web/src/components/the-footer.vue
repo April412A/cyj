@@ -17,7 +17,7 @@
 
       let websocket: any;
       let token: any;
-      const onOpen = () => {
+      /*const onOpen = () => {
         console.log('WebSocket连接成功，状态码：', websocket.readyState)
       };
       const onMessage = (event: any) => {
@@ -58,7 +58,7 @@
           alert('当前浏览器 不支持')
         }
       });
-
+*/
       return {
         user
       }

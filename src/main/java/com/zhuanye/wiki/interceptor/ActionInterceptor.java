@@ -1,9 +1,8 @@
 package com.zhuanye.wiki.interceptor;
-/*
 import com.alibaba.fastjson.JSONObject;
-import com.jiawa.wiki.resp.CommonResp;
-import com.jiawa.wiki.resp.UserLoginResp;
-import com.jiawa.wiki.util.LoginUserContext;
+import com.zhuanye.wiki.resp.CommonResp;
+import com.zhuanye.wiki.resp.UserLoginResp;
+import com.zhuanye.wiki.util.LoginUserContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -14,9 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-*//**
- * 拦截器：Spring框架特有的，常用于登录校验，权限校验，请求日志打印
- *//*
+// 拦截器：Spring框架特有的，常用于登录校验，权限校验，请求日志打印
+ 
 @Component
 public class ActionInterceptor implements HandlerInterceptor {
 
@@ -47,4 +45,4 @@ public class ActionInterceptor implements HandlerInterceptor {
         return false;
     }
 
-}*/
+}

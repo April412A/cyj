@@ -56,15 +56,3 @@ public class TestController {
     }
 }
 
-/*@RequestMapping("/test")
-@RestController
-public class TestController {
-    @Value("${test.hello}")
-    private String testhello;
-    //http://127.0.0.1:8080/hello
-    @GetMapping("/hello")
-    public String hello(){
-        return "hello222"+testhello;
-    }
-
-}*/
