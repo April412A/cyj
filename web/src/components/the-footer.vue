@@ -1,6 +1,6 @@
 <template>
   <a-layout-footer style="text-align: center">
-    甲蛙电子书<span v-show="user.id">，欢迎：{{user.name}}</span>
+    wiki电子书<span v-show="user.id">，欢迎：{{user.name}}</span>
   </a-layout-footer>
 </template>
 
@@ -15,9 +15,9 @@
     setup() {
       const user = computed(() => (store.state as any).user);
 
-      let websocket: any;
+      //let websocket: any;
       let token: any;
-      /*const onOpen = () => {
+     /* const onOpen = () => {
         console.log('WebSocket连接成功，状态码：', websocket.readyState)
       };
       const onMessage = (event: any) => {
@@ -57,8 +57,7 @@
         } else {
           alert('当前浏览器 不支持')
         }
-      });
-*/
+      });*/
       return {
         user
       }

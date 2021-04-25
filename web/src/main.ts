@@ -9,7 +9,9 @@ import axios from 'axios';
 import {Tool} from "@/util/tool";
 import { message } from 'ant-design-vue';
 
-axios.defaults.baseURL = process.env.VUE_APP_SERVER;
+//axios.defaults.baseURL = process.env.VUE_APP_SERVER;
+axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 /**
  * axios拦截器

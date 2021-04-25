@@ -12,8 +12,9 @@
         </a>
       </div>
     </div>
-
-    <a-row>
+  </div>
+</template>
+<!--    <a-row>
       <a-col :span="24">
         <a-card>
           <a-row>
@@ -264,7 +265,7 @@
       }
     }
   });
-</script>
+</script>-->
 <style scoped>
   .tip {
     padding: 10px 5px;

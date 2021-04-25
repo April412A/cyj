@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 //拦截器：Spring框架特有的，常用于登录校验，权限校验，请求日志打印
  
 
-@Component
+/*@Component
 public class LoginInterceptor implements HandlerInterceptor {
 
     private static final Logger LOG = LoggerFactory.getLogger(LoginInterceptor.class);
@@ -72,4 +72,4 @@ public class LoginInterceptor implements HandlerInterceptor {
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
 //        LOG.info("LogInterceptor 结束");
     }
-}
+}*/

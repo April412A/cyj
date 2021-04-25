@@ -12,7 +12,7 @@ package com.zhuanye.wiki.interceptor;
  /**
   * 拦截器：Spring框架特有的，常用于登录校验，权限校验，请求日志打印 /login
   */
- @Component
+/* @Component
  public class LogInterceptor implements HandlerInterceptor {
 
      private static final Logger LOG = LoggerFactory.getLogger(LogInterceptor.class);
@@ -34,4 +34,4 @@ package com.zhuanye.wiki.interceptor;
          long startTime = (Long) request.getAttribute("requestStartTime");
          LOG.info("------------- LogInterceptor 结束 耗时：{} ms -------------", System.currentTimeMillis() - startTime);
      }
- }
+ }*/
