@@ -4,73 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="axios+view">
-      <change afterPath="$PROJECT_DIR$/http/user.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.2021-04-13.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.2021-04-20.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.2021-04-21.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/trace.2021-04-20.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/AdministratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/controller/EbookSnapshotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/AdministratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/CategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/ContentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/Doc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/DocExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/EbookSnapshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/domain/EbookSnapshotExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/job/DocJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/job/EbookSnapshotJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/job/TestJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/AdministratorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/ContentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/DocMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/DocMapperCust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/EbookSnapshotMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/mapper/EbookSnapshotMapperCust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/req/AdministratorLoginReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/req/AdministratorQueryReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/req/AdministratorResetPasswordReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/req/AdministratorSaveReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp/AdministratorLoginResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp/AdministratorQueryResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp/CategoryQueryResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp/DocQueryResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/resp/StatisticResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/rocketmq/VoteTopicConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/service/AdministratorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/service/DocService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/service/EbookSnapshotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/service/WsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ContentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DocMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DocMapperCust.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhuanye/wiki/service/UserServiceTest.java" afterDir="false" />
+    <list default="true" id="a7b4e601-c9a9-4a2f-ac8e-bac3b9aa028c" name="Default Changelist" comment="登录+执行各种功能">
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-04-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-05-04.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-05-16.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/trace.2021-05-17.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdministratorMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/exception/BusinessExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/exception/BusinessExceptionCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/interceptor/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/interceptor/LogInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhuanye/wiki/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generator-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EbookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EbookMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/the-footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/components/the-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/the-welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-welcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/aliyun.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/aliyun.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +128,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/mymodel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16626213" />
@@ -341,9 +286,6 @@
     <configuration name="ebook#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/ebook.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/test.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="test#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/test.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -475,6 +417,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/web/package.json" />
       <command value="run" />
@@ -486,23 +438,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.test#1" />
       <item itemvalue="HTTP Request.test#2" />
       <item itemvalue="HTTP Request.test#3" />
       <item itemvalue="HTTP Request.ebook#1" />
       <item itemvalue="HTTP Request.user#1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.serve" />
+      <item itemvalue="npm.build" />
       <item itemvalue="Spring Boot.WikiApplication" />
       <item itemvalue="Tomcat Server.Tomcat9.0.44" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="HTTP Request.user#1" />
         <item itemvalue="HTTP Request.ebook#1" />
         <item itemvalue="HTTP Request.test#3" />
         <item itemvalue="HTTP Request.test#2" />
-        <item itemvalue="HTTP Request.test#1" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +527,23 @@
       <workItem from="1618911087766" duration="8372000" />
       <workItem from="1618924776373" duration="1216000" />
       <workItem from="1618963932234" duration="9193000" />
-      <workItem from="1619309705429" duration="4248000" />
+      <workItem from="1619309705429" duration="6595000" />
+      <workItem from="1619482889901" duration="1355000" />
+      <workItem from="1619831816577" duration="1104000" />
+      <workItem from="1619833835818" duration="272000" />
+      <workItem from="1619845165194" duration="2431000" />
+      <workItem from="1619850502337" duration="733000" />
+      <workItem from="1620096561119" duration="2199000" />
+      <workItem from="1620110713959" duration="1349000" />
+      <workItem from="1620127192487" duration="750000" />
+      <workItem from="1620201379377" duration="1118000" />
+      <workItem from="1620266728848" duration="2846000" />
+      <workItem from="1620438428291" duration="570000" />
+      <workItem from="1620522049281" duration="1644000" />
+      <workItem from="1621157226226" duration="533000" />
+      <workItem from="1621219069742" duration="1193000" />
+      <workItem from="1621254510332" duration="264000" />
+      <workItem from="1621298491093" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="2-2 init">
       <created>1615000291466</created>
@@ -745,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618900292142</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="登录+执行各种功能">
+      <created>1619314028250</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1619314028250</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +765,8 @@
     <MESSAGE value="http测试数据库-分块打印数据" />
     <MESSAGE value="新建用户表" />
     <MESSAGE value="axios+view" />
-    <option name="LAST_COMMIT_MESSAGE" value="axios+view" />
+    <MESSAGE value="登录+执行各种功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录+执行各种功能" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

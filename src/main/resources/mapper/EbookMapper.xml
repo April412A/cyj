@@ -111,7 +111,7 @@
       )
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{category1Id,jdbcType=BIGINT}, 
       #{category2Id,jdbcType=BIGINT}, #{description,jdbcType=VARCHAR}, #{cover,jdbcType=VARCHAR}, 
-      #{docCount,jdbcType=INTEGER}, #{viewCount,jdbcType=INTEGER}, #{voteCount,jdbcType=INTEGER}
+      1, 1, 1
       )
   </insert>
   <insert id="insertSelective" parameterType="com.zhuanye.wiki.domain.Ebook">
